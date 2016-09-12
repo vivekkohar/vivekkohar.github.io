@@ -134,9 +134,9 @@ ol li {
   margin-right: auto;
 }
 
-header {  
-  background: #4C340A url(../images/back.png) repeat-x;
-  height: 165px;
+header {
+    background: #FFFFFF  url(../images/wordart1.png) no-repeat top center;
+    height: 120px;
 }
 
 #logo {  
