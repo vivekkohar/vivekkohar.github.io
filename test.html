@@ -4,20 +4,21 @@
         <title>sRACIPE</title>
     </head>
     <body>
-        
-        <h1>User Information</h1>
+        <h2>sRACIPE</h2>
+
+        <h2>User Information</h2>
         <p>Please enter your information (name, email and institutional affiliation) here to access the package. </p>
         <h2>Name </h2>
         </p>
-        <form action="https://formspree.io/vivek.kohar@email.com"
-            method="POST">
-            <input type="text" Name="name">
-                <h2>Institution </h2>
-                <input type="text" Name="Institution">
+        <form method="POST" action="https://formspree.io/vivek.kohar@gmail.com">
+            <input type="text" Name="name" placeholder="Your name">
+                
+                <input type="text" Name="Institution" placeholder="Your institution/affiliation">
 
-                <h2>Email</h2>
-                <input type="Email" name="_replyto">
+                <input type="Email" name="_replyto" placeholder="Your email">
+                    
                     <input type="submit" value="Send">
+                    <input type="hidden" name="_next" value="https://github.com/lusystemsbio/sRACIPE" />
                         </form>
     </body>
 </html>
